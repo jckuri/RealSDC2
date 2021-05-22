@@ -6,8 +6,6 @@ https://classroom.udacity.com/nanodegrees/nd013
 # Installation
 
 Go to the Udacity workspace of the project [Programming a Real Self-Driving Car](https://classroom.udacity.com/nanodegrees/nd013/parts/01a340a5-39b5-4202-9f89-d96de8cf17be/modules/1dc566d7-03d4-40da-af2c-b8ec85f2e4dd/lessons/e43b2e6d-6def-4d3a-b332-7a58b847bfa4/concepts/51c2ea21-5317-4bbd-ab82-047e5fd6849b).
-Click on Menu. Click on `Reset Data...`. 
-Type `reset data` and click on `RESET DATA`.
 
 Click on the `+` sign in the left panel where the directory structure is.
 Click on "Upload File". Upload the file [RealSDC2-main.zip](https://github.com/jckuri/RealSDC2/archive/refs/heads/main.zip) in the directory `/home/workspace`.
