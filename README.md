@@ -84,6 +84,18 @@ cd ..
 sh CHANGE_TO_TEST_LOT.sh
 ```
 
+This script changes the waypoints of the file `ros/src/waypoint_loader/launch/waypoint_loader.launch` to:
+
+```
+<?xml version="1.0"?>
+<launch>
+    <node pkg="waypoint_loader" type="waypoint_loader.py" name="waypoint_loader">
+        <param name="path" value="$(find styx)../../../data/churchlot_with_cars.csv" />
+        <param name="velocity" value="40" />
+    </node>
+</launch>
+```
+
 Go to the directory `ros`.
 Execute the process `roslaunch launch/styx.launch` again.
 
@@ -117,7 +129,9 @@ simulation like this:
 https://youtu.be/gE28pyRXaHA**
 <img src='imgs/demo2.png'/>
 
-
+If you want to execute the simulation in the `Highway track` again, you need to follow
+a similar procedure. But this time, you should execute the script 
+`CHANGE_TO_TEST_LOT.sh`.
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
